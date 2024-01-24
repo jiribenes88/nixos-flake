@@ -2,6 +2,7 @@
 {
     users.users.jb = {
     isNormalUser = true;
+    home = "/home/jb";
     description = "JB";
     extraGroups = ["networkmanager" "wheel"];
     openssh.authorizedKeys.keys = [
