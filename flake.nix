@@ -16,6 +16,7 @@
         modules = [
           ./configuration.nix
           ./vpsadminos.nix
+          ./modules/system.nix
         ];
       };    
     };
