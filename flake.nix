@@ -11,11 +11,11 @@
   in
   {
     nixosConfigurations = {
-      nixos = nixpkgs.lib.nixosSystem {
+      vps = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          ./configuration.nix
-          ./vpsadminos.nix
+          ./hosts/vps/configuration.nix
+          ./hosts/vps/vpsadminos.nix
           ./modules/system.nix
         ];
       };    
