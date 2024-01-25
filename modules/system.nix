@@ -14,6 +14,7 @@
   # Systémové balíčky
   environment.systemPackages = with pkgs; [
     git
+    lf:
     vim
   ];
 
