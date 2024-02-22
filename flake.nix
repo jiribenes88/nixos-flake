@@ -22,6 +22,7 @@
           ./hosts/vps/configuration.nix
           ./hosts/vps/vpsadminos.nix
           ./modules/system.nix
+          ./modules/firewall.nix      # zapne firewal
         ];
       };    
     };
