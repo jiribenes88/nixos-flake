@@ -15,6 +15,8 @@
   environment.systemPackages = with pkgs; [
     git
     lf
+    mc
+    neovim
     vim
   ];
 
