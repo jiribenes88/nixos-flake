@@ -23,6 +23,7 @@
           ./hosts/vps/vpsadminos.nix
           ./modules/system.nix
           ./modules/firewall.nix      # zapne firewal
+          ./modules/nextcloud.nix     # zapne nextcloud
         ];
       };    
     };
