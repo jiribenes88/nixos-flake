@@ -5,14 +5,8 @@
     enable = true;
     package = pkgs.nextcloud28;
     hostName = "localhost";
-    https = true;
     config.extraTrustedDomains = [ "37.205.13.132" ];
     config.adminuser = "JiriBenes";
     config.adminpassFile = "/etc/nextcloud-admin-pass";    
-  };
-
-  services.nginx.virtualHosts.${config.services.nextcloud.hostName} = {
-    forceSSL = true;
-    enableACME = true;
   };
 }
