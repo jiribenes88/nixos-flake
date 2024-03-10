@@ -1,5 +1,5 @@
 { pkgs, lib, ... }:
 {
   networking.firewall.enable = true;      #zablokuje všechny porty
-  networking.firewall.allowedTCPPorts = [ 22 ];
+  networking.firewall.allowedTCPPorts = [ 22 80 443 ];
 }
