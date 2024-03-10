@@ -22,9 +22,9 @@
           ./hosts/vps/configuration.nix
           ./hosts/vps/vpsadminos.nix
           ./modules/system.nix
-#          ./modules/podman.nix        # zapne podman
+#         ./modules/podman.nix        # zapne podman
           ./modules/firewall.nix      # zapne firewal
-#         ./modules/nextcloud.nix     # zapne nextcloud
+          ./modules/nextcloud.nix     # zapne nextcloud
         ];
       };    
     };
