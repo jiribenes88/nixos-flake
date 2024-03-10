@@ -1,6 +1,6 @@
 { pkgs, lib, ... }:
 {
-  environment.etc."nextcloud-admin-pass".text = "PWD";
+  environment.etc."nextcloud-admin-pass".text = "njZfd9$*V@eAA&";
   services.nextcloud = {
     enable = true;
     package = pkgs.nextcloud28;
