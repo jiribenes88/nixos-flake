@@ -9,11 +9,5 @@
     config.adminuser = "JiriBenes";
     config.adminpassFile = "/etc/nextcloud-admin-pass";
     
-    # Instead of using pkgs.nextcloud28Packages.apps,
-    # we'll reference the package version specified abov
-    extraApps = {
-      inherit (config.services.nextcloud.package.packages.apps) contacts calendar;
-    };
-    extraAppsEnable = true;
   };
 }
