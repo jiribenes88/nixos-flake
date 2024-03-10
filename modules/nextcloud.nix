@@ -4,7 +4,7 @@
   services.nextcloud = {
     enable = true;
     package = pkgs.nextcloud28;
-    hostName = "37.205.13.132";
+    hostName = "localhost";
     config.adminuser = "JiriBenes"
     config.adminpassFile = "/etc/nextcloud-admin-pass";
   };
