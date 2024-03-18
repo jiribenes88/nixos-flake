@@ -25,6 +25,7 @@
 #         ./modules/podman.nix        # zapne podman
           ./modules/firewall.nix      # zapne firewal
           ./modules/nextcloud.nix     # zapne nextcloud
+	  ./modules/caddy.nix
         ];
       };    
     };
